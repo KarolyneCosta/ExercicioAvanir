@@ -24,5 +24,12 @@ namespace CalculadoraClasses
             return resultado;
         }
 
+        public double Dividir(double n1, double n2)
+        {
+            resultado = n1 / n2;
+
+            return resultado;
+        }
+
     }
 }
