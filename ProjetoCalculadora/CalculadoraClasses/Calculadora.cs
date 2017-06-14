@@ -19,9 +19,10 @@ namespace CalculadoraClasses
 
         public double Multiplicar(double n1, double n2)
         {
-            resultado = n1 + n2;
+            resultado = n1 * n2;
 
             return resultado;
         }
+
     }
 }
