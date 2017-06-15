@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CalculadoraClasses;
 
 namespace Calculadora_Teste
 {
@@ -10,6 +11,14 @@ namespace Calculadora_Teste
     {
         static void Main(string[] args)
         {
+            double result;
+            Calculadora c = new Calculadora();
+
+            result = c.Somar(2,2);
+
+            Console.WriteLine("O resultado é: " + result);
+            Console.ReadKey();
+
         }
     }
 }

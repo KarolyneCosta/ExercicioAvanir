@@ -1,0 +1,5 @@
+T:\GIT_ProjetoAvanir\ExercicioAvanir\ProjetoCalculadora\CalculadoraClasses\bin\Debug\CalculadoraClasses.dll
+T:\GIT_ProjetoAvanir\ExercicioAvanir\ProjetoCalculadora\CalculadoraClasses\bin\Debug\CalculadoraClasses.pdb
+T:\GIT_ProjetoAvanir\ExercicioAvanir\ProjetoCalculadora\CalculadoraClasses\obj\Debug\CalculadoraClasses.csprojResolveAssemblyReference.cache
+T:\GIT_ProjetoAvanir\ExercicioAvanir\ProjetoCalculadora\CalculadoraClasses\obj\Debug\CalculadoraClasses.dll
+T:\GIT_ProjetoAvanir\ExercicioAvanir\ProjetoCalculadora\CalculadoraClasses\obj\Debug\CalculadoraClasses.pdb
