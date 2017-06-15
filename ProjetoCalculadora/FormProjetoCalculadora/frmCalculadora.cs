@@ -36,19 +36,58 @@ namespace FormProjetoCalculadora
             }
         }
 
-        private void btnSubtracao_Click(object sender, EventArgs e)
+        private void btnSubtrair_Click(object sender, EventArgs e)
         {
+            try
+            { 
+                Calculadora c = new Calculadora();
+                double Resultado;
 
+                Resultado = c.Subtrair(Convert.ToDouble(txtValor1.Text), Convert.ToDouble(txtValor2.Text));
+
+                lblOperacao.Text = "-";
+                lblResultado.Text = Convert.ToString(Resultado);
+            }
+            catch (Exception erro)
+            {
+                MessageBox.Show(erro.Message);
+            }
         }
 
-        private void btnDivisao_Click(object sender, EventArgs e)
+        private void btnDividir_Click(object sender, EventArgs e)
         {
+            try
+            {
+                Calculadora c = new Calculadora();
+                double Resultado;
 
+                Resultado = c.Dividir(Convert.ToDouble(txtValor1.Text), Convert.ToDouble(txtValor2.Text));
+
+                lblOperacao.Text = "/";
+                lblResultado.Text = Convert.ToString(Resultado);
+            }
+            catch (Exception erro)
+            {
+                MessageBox.Show(erro.Message);
+            }
         }
 
         private void btnMultiplicar_Click(object sender, EventArgs e)
         {
+            try
+            {
+                Calculadora c = new Calculadora();
+                double Resultado;
 
+                Resultado = c.Multiplicar(Convert.ToDouble(txtValor1.Text), Convert.ToDouble(txtValor2.Text));
+
+                lblOperacao.Text = "*";
+                lblResultado.Text = Convert.ToString(Resultado);
+            }
+            catch (Exception erro)
+            {
+                MessageBox.Show(erro.Message);
+            }
         }
 
         private void btnMaior_Click(object sender, EventArgs e)
