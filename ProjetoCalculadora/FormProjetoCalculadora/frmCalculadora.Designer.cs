@@ -38,6 +38,9 @@
             this.lblValor1 = new System.Windows.Forms.Label();
             this.lblValor2 = new System.Windows.Forms.Label();
             this.lblResultado = new System.Windows.Forms.Label();
+            this.btnMaior = new System.Windows.Forms.Button();
+            this.btnMenor = new System.Windows.Forms.Button();
+            this.lblOperacao = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtValor1
@@ -62,6 +65,7 @@
             this.btnSomar.TabIndex = 2;
             this.btnSomar.Text = "Somar";
             this.btnSomar.UseVisualStyleBackColor = true;
+            this.btnSomar.Click += new System.EventHandler(this.btnSomar_Click);
             // 
             // btnSubtracao
             // 
@@ -71,6 +75,7 @@
             this.btnSubtracao.TabIndex = 3;
             this.btnSubtracao.Text = "Subtrair";
             this.btnSubtracao.UseVisualStyleBackColor = true;
+            this.btnSubtracao.Click += new System.EventHandler(this.btnSubtracao_Click);
             // 
             // btnDivisao
             // 
@@ -80,6 +85,7 @@
             this.btnDivisao.TabIndex = 4;
             this.btnDivisao.Text = "Divisão";
             this.btnDivisao.UseVisualStyleBackColor = true;
+            this.btnDivisao.Click += new System.EventHandler(this.btnDivisao_Click);
             // 
             // btnMultiplicar
             // 
@@ -89,6 +95,7 @@
             this.btnMultiplicar.TabIndex = 5;
             this.btnMultiplicar.Text = "Multiplicar";
             this.btnMultiplicar.UseVisualStyleBackColor = true;
+            this.btnMultiplicar.Click += new System.EventHandler(this.btnMultiplicar_Click);
             // 
             // lblIgual
             // 
@@ -126,11 +133,42 @@
             this.lblResultado.TabIndex = 9;
             this.lblResultado.Text = "0";
             // 
+            // btnMaior
+            // 
+            this.btnMaior.Location = new System.Drawing.Point(46, 98);
+            this.btnMaior.Name = "btnMaior";
+            this.btnMaior.Size = new System.Drawing.Size(75, 23);
+            this.btnMaior.TabIndex = 10;
+            this.btnMaior.Text = "Maior >";
+            this.btnMaior.UseVisualStyleBackColor = true;
+            this.btnMaior.Click += new System.EventHandler(this.btnMaior_Click);
+            // 
+            // btnMenor
+            // 
+            this.btnMenor.Location = new System.Drawing.Point(206, 98);
+            this.btnMenor.Name = "btnMenor";
+            this.btnMenor.Size = new System.Drawing.Size(75, 23);
+            this.btnMenor.TabIndex = 11;
+            this.btnMenor.Text = "Menor <";
+            this.btnMenor.UseVisualStyleBackColor = true;
+            this.btnMenor.Click += new System.EventHandler(this.btnMenor_Click);
+            // 
+            // lblOperacao
+            // 
+            this.lblOperacao.AutoSize = true;
+            this.lblOperacao.Location = new System.Drawing.Point(127, 37);
+            this.lblOperacao.Name = "lblOperacao";
+            this.lblOperacao.Size = new System.Drawing.Size(0, 13);
+            this.lblOperacao.TabIndex = 12;
+            // 
             // frmCalculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(346, 104);
+            this.ClientSize = new System.Drawing.Size(346, 140);
+            this.Controls.Add(this.lblOperacao);
+            this.Controls.Add(this.btnMenor);
+            this.Controls.Add(this.btnMaior);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.lblValor2);
             this.Controls.Add(this.lblValor1);
@@ -161,6 +199,9 @@
         private System.Windows.Forms.Label lblValor1;
         private System.Windows.Forms.Label lblValor2;
         private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.Button btnMaior;
+        private System.Windows.Forms.Button btnMenor;
+        private System.Windows.Forms.Label lblOperacao;
     }
 }
 
