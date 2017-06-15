@@ -14,10 +14,40 @@ namespace Calculadora_Teste
             double result;
             Calculadora c = new Calculadora();
 
-            result = c.Somar(2,2);
+            Console.WriteLine("Soma de números inteiros");
+            result = c.Somar(2, 2);
 
-            Console.WriteLine("O resultado é: " + result);
-            Console.ReadKey();
+            if (result == 4)
+            {
+                Console.WriteLine("Soma realizada com sucesso.");
+                Console.ReadKey();
+            }
+            else
+            {
+                Console.WriteLine("Erro");
+                Console.ReadKey();
+            }
+
+            //Soma de números decimais
+            Console.WriteLine();
+            Console.WriteLine("Soma de números decimais");
+
+            result = c.Somar(2.5, 2.5);
+
+            if (result == 5)
+            {                
+                Console.WriteLine("Soma realizada com sucesso.");
+                Console.ReadKey();            
+            }
+            else
+            {
+                Console.WriteLine("Erro");
+                Console.ReadKey();
+            }
+
+
+
+
 
         }
     }
