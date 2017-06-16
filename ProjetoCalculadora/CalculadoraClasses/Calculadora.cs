@@ -34,7 +34,7 @@ namespace CalculadoraClasses
             }
             else
             {
-                Console.WriteLine("Não se pode dividir por zedo" );
+                resultado = 0;
                 return resultado;
             }
         }
@@ -44,6 +44,18 @@ namespace CalculadoraClasses
             resultado = n1 - n2;
 
             return resultado;
+        }
+
+        public double MenorNumero(double n1, double n2)
+        {
+            if (n1 < n2)
+            {
+                return n1;
+            }
+            else
+            {
+                return n2;
+            }
         }
 
     }
