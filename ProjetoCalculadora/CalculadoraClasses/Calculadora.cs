@@ -26,7 +26,7 @@ namespace CalculadoraClasses
 
         public double Dividir(double n1, double n2)
         {
-            if (n1 != 0 || n2 != 0)
+            if (n1 != 0 && n2 != 0)
             {
                 resultado = n1 / n2;
 
