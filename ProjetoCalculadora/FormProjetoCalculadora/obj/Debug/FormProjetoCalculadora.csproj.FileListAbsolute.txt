@@ -1,1 +1,13 @@
 C:\Users\UNIRON\ExercicioAvanir\ProjetoCalculadora\FormProjetoCalculadora\bin\Debug\FormProjetoCalculadora.exe.config
+T:\ProjetoCalculadora\ExercicioAvanir\ProjetoCalculadora\FormProjetoCalculadora\bin\Debug\FormProjetoCalculadora.exe.config
+C:\Git\ExercicioAvanir\ProjetoCalculadora\FormProjetoCalculadora\bin\Debug\FormProjetoCalculadora.exe.config
+C:\Git\ExercicioAvanir\ProjetoCalculadora\FormProjetoCalculadora\bin\Debug\FormProjetoCalculadora.exe
+C:\Git\ExercicioAvanir\ProjetoCalculadora\FormProjetoCalculadora\bin\Debug\FormProjetoCalculadora.pdb
+C:\Git\ExercicioAvanir\ProjetoCalculadora\FormProjetoCalculadora\bin\Debug\CalculadoraClasses.dll
+C:\Git\ExercicioAvanir\ProjetoCalculadora\FormProjetoCalculadora\bin\Debug\CalculadoraClasses.pdb
+C:\Git\ExercicioAvanir\ProjetoCalculadora\FormProjetoCalculadora\obj\Debug\FormProjetoCalculadora.csprojResolveAssemblyReference.cache
+C:\Git\ExercicioAvanir\ProjetoCalculadora\FormProjetoCalculadora\obj\Debug\FormProjetoCalculadora.frmCalculadora.resources
+C:\Git\ExercicioAvanir\ProjetoCalculadora\FormProjetoCalculadora\obj\Debug\FormProjetoCalculadora.Properties.Resources.resources
+C:\Git\ExercicioAvanir\ProjetoCalculadora\FormProjetoCalculadora\obj\Debug\FormProjetoCalculadora.csproj.GenerateResource.Cache
+C:\Git\ExercicioAvanir\ProjetoCalculadora\FormProjetoCalculadora\obj\Debug\FormProjetoCalculadora.exe
+C:\Git\ExercicioAvanir\ProjetoCalculadora\FormProjetoCalculadora\obj\Debug\FormProjetoCalculadora.pdb

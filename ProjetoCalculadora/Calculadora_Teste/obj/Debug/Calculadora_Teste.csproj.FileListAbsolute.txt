@@ -1,0 +1,16 @@
+T:\GIT_ProjetoAvanir\ExercicioAvanir\ProjetoCalculadora\Calculadora_Teste\bin\Debug\Calculadora_Teste.exe.config
+T:\GIT_ProjetoAvanir\ExercicioAvanir\ProjetoCalculadora\Calculadora_Teste\bin\Debug\Calculadora_Teste.exe
+T:\GIT_ProjetoAvanir\ExercicioAvanir\ProjetoCalculadora\Calculadora_Teste\bin\Debug\Calculadora_Teste.pdb
+T:\GIT_ProjetoAvanir\ExercicioAvanir\ProjetoCalculadora\Calculadora_Teste\bin\Debug\CalculadoraClasses.dll
+T:\GIT_ProjetoAvanir\ExercicioAvanir\ProjetoCalculadora\Calculadora_Teste\bin\Debug\CalculadoraClasses.pdb
+T:\GIT_ProjetoAvanir\ExercicioAvanir\ProjetoCalculadora\Calculadora_Teste\obj\Debug\Calculadora_Teste.csprojResolveAssemblyReference.cache
+T:\GIT_ProjetoAvanir\ExercicioAvanir\ProjetoCalculadora\Calculadora_Teste\obj\Debug\Calculadora_Teste.exe
+T:\GIT_ProjetoAvanir\ExercicioAvanir\ProjetoCalculadora\Calculadora_Teste\obj\Debug\Calculadora_Teste.pdb
+C:\Users\Karolyne\Documents\GIT\ExercicioAvanir\ProjetoCalculadora\Calculadora_Teste\bin\Debug\Calculadora_Teste.exe.config
+C:\Users\Karolyne\Documents\GIT\ExercicioAvanir\ProjetoCalculadora\Calculadora_Teste\bin\Debug\Calculadora_Teste.exe
+C:\Users\Karolyne\Documents\GIT\ExercicioAvanir\ProjetoCalculadora\Calculadora_Teste\bin\Debug\Calculadora_Teste.pdb
+C:\Users\Karolyne\Documents\GIT\ExercicioAvanir\ProjetoCalculadora\Calculadora_Teste\bin\Debug\CalculadoraClasses.dll
+C:\Users\Karolyne\Documents\GIT\ExercicioAvanir\ProjetoCalculadora\Calculadora_Teste\bin\Debug\CalculadoraClasses.pdb
+C:\Users\Karolyne\Documents\GIT\ExercicioAvanir\ProjetoCalculadora\Calculadora_Teste\obj\Debug\Calculadora_Teste.csprojResolveAssemblyReference.cache
+C:\Users\Karolyne\Documents\GIT\ExercicioAvanir\ProjetoCalculadora\Calculadora_Teste\obj\Debug\Calculadora_Teste.exe
+C:\Users\Karolyne\Documents\GIT\ExercicioAvanir\ProjetoCalculadora\Calculadora_Teste\obj\Debug\Calculadora_Teste.pdb
