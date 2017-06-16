@@ -50,11 +50,13 @@ namespace CalculadoraClasses
         {
             if (n1 < n2)
             {
-                return n1;
+                resultado = n1;
+                return resultado;
             }
             else
             {
-                return n2;
+                resultado = n2;
+                return resultado;
             }
         }
 
@@ -62,11 +64,13 @@ namespace CalculadoraClasses
         {
             if (n1 > n2)
             {
-                return n1;
+                resultado = n1;
+                return resultado;
             }
             else
             {
-                return n2;
+                resultado = n2;
+                return resultado;
             }
         }
 
