@@ -261,7 +261,7 @@ namespace Calculadora_Teste
 
             if (result == 4.2)
             {
-                Console.WriteLine("Multiplicação realizada com sucesso.");
+                Console.WriteLine("Divisão realizada com sucesso.");
                 Console.ReadKey();
             }
             else
@@ -306,7 +306,7 @@ namespace Calculadora_Teste
 
             //Divisão de um número 0 por outro
             Console.WriteLine();
-            Console.WriteLine("Divisão por 0");
+            Console.WriteLine("Divisão de um número 0 por outro");
 
             result = c.Dividir(0, 5);
 
@@ -326,15 +326,16 @@ namespace Calculadora_Teste
             Console.WriteLine("Divisão de um número por 0");
 
             result = c.Dividir(5, 0);
-
-            if (result == 0)
+           
+            if(result == 0 || result == 5)
             {
-                Console.WriteLine("Divisão realizada com sucesso.");
+                Console.WriteLine("Erro");
                 Console.ReadKey();
             }
             else
             {
-                Console.WriteLine("Erro");
+                Console.WriteLine("Não é possível dividir por 0");
+                Console.WriteLine("Divisão realizada com sucesso.");
                 Console.ReadKey();
             }
 
@@ -347,7 +348,8 @@ namespace Calculadora_Teste
             Console.WriteLine("Divisão de números inteiros");
 
             result = c.MenorNumero(2, 10);
-            if (result == 2)
+            if (result == 2
+                )
             {
                 Console.WriteLine("Menor que realizada com sucesso.");
                 Console.ReadKey();
@@ -433,7 +435,7 @@ namespace Calculadora_Teste
             Console.WriteLine();
             Console.WriteLine("Maior que de números decimais");
 
-            result = c.Somar(10.5, 2.5);
+            result = c.MaiorNumero(10.5, 2.5);
 
             if (result == 10.5)
             {
@@ -450,7 +452,7 @@ namespace Calculadora_Teste
             Console.WriteLine();
             Console.WriteLine("Maior que de números negativos");
 
-            result = c.Somar(-10, -2);
+            result = c.MaiorNumero(-10, -2);
 
             if (result == -2)
             {
@@ -467,7 +469,7 @@ namespace Calculadora_Teste
             Console.WriteLine();
             Console.WriteLine("Maior que de número negativo e positivo");
 
-            result = c.Somar(-10, 5);
+            result = c.MaiorNumero(-10, 5);
 
             if (result == 5)
             {
