@@ -92,12 +92,38 @@ namespace FormProjetoCalculadora
 
         private void btnMaior_Click(object sender, EventArgs e)
         {
+            try
+            {
+                Calculadora c = new Calculadora();
+                double Resultado;
 
+                Resultado = c.MaiorNumero(Convert.ToDouble(txtValor1.Text), Convert.ToDouble(txtValor2.Text));
+
+                lblOperacao.Text = "";
+                lblResultado.Text = Convert.ToString(Resultado) + " E Maior";
+            }
+            catch (Exception erro)
+            {
+                MessageBox.Show(erro.Message);
+            }
         }
 
         private void btnMenor_Click(object sender, EventArgs e)
         {
+            try
+            {
+                Calculadora c = new Calculadora();
+                double Resultado;
 
+                Resultado = c.MenorNumero(Convert.ToDouble(txtValor1.Text), Convert.ToDouble(txtValor2.Text));
+
+                lblOperacao.Text = "";
+                lblResultado.Text = Convert.ToString(Resultado) + " E Menor";
+            }
+            catch (Exception erro)
+            {
+                MessageBox.Show(erro.Message);
+            }
         }
     }
 }
